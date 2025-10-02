@@ -66,5 +66,5 @@ function OnPlayerSpawned(...)
 	GameAddFlagRun(flag)
 	do_callback("OnPlayerFirstSpawned", ...)
 
-	EntityLoad("mods/noita.thingsmod/content/alchemist/ascendant_alchemist.xml", 175, -221)
+
 end
