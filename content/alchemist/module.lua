@@ -1,3 +1,8 @@
-function OnPlayerSpawned(...)
-    EntityLoad("mods/noita.thingsmod/content/alchemist/ascendant_alchemist.xml", 175, -221)
-end
+local moduleAlchy = {
+	name = "providence module",
+	description = "he fuckin. spawns idk",
+	authors = "infernum",
+	OnPlayerSpawned = function(player_entity) 
+         EntityLoad("mods/noita.thingsmod/content/alchemist/ascendant_alchemist.xml", 175, -221)
+    end,
+}
