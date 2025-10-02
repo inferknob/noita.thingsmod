@@ -4,6 +4,7 @@
 local M = {
 	"example",
 	"simple_perks",
+	"providencemodule",
 }
 
 return M
